@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2p"
+    tools:context=".CseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Technical Paper Presentation"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b10">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team  of  4  members (each team should submit a hard copy) Time allotted for presentation is 8 minutes. and 2 minutes.For  Q-A Paper must follow the norms of  IEEE(fonts ,spacing ,headings etc.)
+            Paper  must  contain (within 8  pages)
+Title, Abstract (max. 200  words), Introduction, Point wise  description of  subject, Conclusion, Reference
+Soft  copy  should  be mailed.( contact coordinator) "
+
+            android:textColor="#fff"
+            android:textSize="24sp"
+           />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event1"
+            android:text="Register" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Technical Quiz"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b5"
+            android:adjustViewBounds="true">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team of 2 members Comprising of 3 rounds (Prelims and Finals)
+Prelims will be Written test
+25 questions must be answered in 30 minutes.
+Finals (2 rounds)
+Qualifiers of prelims will participate in finals
+Usage of any gadgets is not allowed"
+
+            android:textColor="#fff"
+            android:textSize="24sp"
+            />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event2"
+            android:text="Register" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Puzzle / Crossword"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:textAlignment="center">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Puzzle :
+Find the  given  technical  words within the  puzzle
+Time limit of 10 minutes.
+Accurate and best timer proceeds to the next round
+Qualifiers of round-1 (puzzle)  shall go to the next round(crossword)
+Crossword :
+Given the clues, find the word and fill up the boxes accordingly
+Time limit of 15 minutes.
+Accurate and best timer wins
+"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event3"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="4.Cryptohunt"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b2"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="Short description - Crypto-hunt is an event inspired by the traditional Treasure Hunt but involving concepts of technology. The clues are hidden offline in the SaiVidya campus as well as online on the internet. Participants are supposed to follow the clues and reach the treasure.
+Teams of 3 participants each.
+Duration is 90 minutes.
+The first clue will be given, students must follow the clues and reach the treasure which will be a part of the clues.
+Use of mobile phones and computers is allowed. It is preferred that the participants have a smartphone with internet access and camera functionality.
+The coordinators can be contacted in case of any issues.
+The coordinators will not help regarding clues.
+Tampering the physical clues hidden offline will lead to immediate disqualification from the event.
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event4"
+            android:text="Register" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="5.Search it!"
+        android:textAlignment="center">
+
+    </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b3"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:text="Description: Each Page consists of combination of pictures, and participants have to solve the puzzle using any search engine and find the answers. The answer is in the images and may consist of one word or one sentences
+Maximum no of participant per team 2.
+Think like Sherlock.
+Game consists of [ 6 ]  Pages with combination of picture.
+Each page has one question.
+Write the page no and corresponding answer in sheet provided.
+You can use any search engine to find answer.
+Time limit to solve puzzle is 90 minute.
+Usage of mobile is prohibited.
+Answer may consist of one word or one sentence.
+Answer must be exact to the question.">
+
+    </TextView>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event5"
+            android:text="Register" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="6.Coding/Debugging"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b1"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="Each team should consist of only 2 members.
+There will be 2 rounds:
+   Prelims: Coding and debugging
+                The language specified is C.
+   Prelims: Coding and debugging
+                The language specified is C.
+3) Phones are not allowed.
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event6"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="7.Tech Dumb Charades"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="1.The game will be conducted in teams.
+2. Each team consists of 3 members.
+3. For each team a “technical word” is given and a person from team should enact the word.
+4. The remaining members in the group should guess the word correctly for which they will
+gain points.
+5. The team which is unable to guess the word will be eliminated
+
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event7"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="8.NFS"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b7"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="Knock out followed for all games
+Unfair play shall be disqualified
+Judges decision is final
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event8"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="9.Counter strike"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b8"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="4 in a team.
+Knock Outs will be followed for every game.
+Friendly fire will be turned on.
+All Bombs will be allowed.
+1st round 32_aztecworld.
+Finals and Semi-finals de_dust2.
+Remaining rules will be announced by Coordinators.
+
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event9"
+            android:text="Register" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="10.PUBG"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b4"
+            android:adjustViewBounds="true"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:text="4 in a team.
+Remaining rules will be announced by Coordinators.
+
+">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="event10"
+            android:text="Register" />
+
+
+    </LinearLayout>
+</ScrollView>
